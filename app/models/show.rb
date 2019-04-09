@@ -1,7 +1,7 @@
 class Show < ActiveRecord::Base 
   
   def self.highest_rating
-    Movie.maximum('')
+    Movie.maximum('rating')
   end 
   
 end
