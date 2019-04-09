@@ -21,4 +21,5 @@ class Show < ActiveRecord::Base
   
   def popular_shows
   end
+  
 end
