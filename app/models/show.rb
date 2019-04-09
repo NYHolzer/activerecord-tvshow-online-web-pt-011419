@@ -15,7 +15,7 @@ class Show < ActiveRecord::Base
   
   def self.least_popular_show
     unpopular = self.highest_rating
-    self.find_by(rating: popular)
+    self.find_by(rating: unpopular)
   end 
   
   def self.ratings_sum 
